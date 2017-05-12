@@ -1,0 +1,14 @@
+main: me.capri.Main.Main
+name: Plugin
+version: 1.1
+permissions:
+    cStaff.Freeze:
+    description: Use the Freeze command
+    default: op
+
+
+commands:
+    freeze:
+        usage: /<command>
+        description: Freeze and unfreeze players! Now also doesnt allow players to drop items apon being frozen!
+
